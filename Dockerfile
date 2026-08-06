@@ -1,5 +1,5 @@
 # ---------- Build stage ----------
-FROM node:20-alpine AS builder
+FROM node:20-bookworm-slim AS builder
 WORKDIR /app
 
 COPY package*.json ./
@@ -11,7 +11,7 @@ RUN npx prisma generate
 RUN npm run build
 
 # ---------- Production stage ----------
-FROM node:20-alpine AS production
+FROM node:20-bookworm-slim AS production
 WORKDIR /app
 ENV NODE_ENV=production
 
