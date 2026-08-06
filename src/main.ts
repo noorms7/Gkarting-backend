@@ -15,7 +15,7 @@ async function bootstrap() {
   app.use(cookieParser());
 
   app.enableCors({
-    origin: ['https://gkarting.vercel.app','http://localhost:3000','http://localhost:3001'],
+    origin: ['https://gkarting.vercel.app','https://gkarting-admin.vercel.app','http://localhost:3000','http://localhost:3001'],
     credentials: true,
   });
 
