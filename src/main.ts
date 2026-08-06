@@ -15,7 +15,7 @@ async function bootstrap() {
   app.use(cookieParser());
 
   app.enableCors({
-    origin: [config.get<string>('frontendUrl') ?? 'http://localhost:3000', config.get<string>('adminFrontendUrl') ?? 'http://localhost:3001',],
+    origin: [config.get<string>('frontendUrl') ?? 'https://gkarting.vercel.app/', config.get<string>('adminFrontendUrl') ?? 'http://localhost:3001',],
     credentials: true,
   });
 
