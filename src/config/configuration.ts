@@ -31,7 +31,7 @@ export default () => ({
     user: process.env.SMTP_USER,
     password: process.env.SMTP_PASSWORD,
     fromName: process.env.MAIL_FROM_NAME || 'GKarting',
-    fromAddress: process.env.MAIL_FROM_ADDRESS || 'nourmoussawi17@gmail.com',
+    fromAddress: process.env.MAIL_FROM_ADDRESS || 'onboarding@resend.dev',
   },
 
   cloudinary: {
