@@ -127,7 +127,7 @@ async function main() {
       data: {
         businessName: 'GKarting',
         phone: '+961 00 000 000',
-        email: 'nrwork.mob@gmail.com',
+        email: 'nourmoussawi17@gmail.com',
         whatsapp: 'https://wa.me/96100000000',
         instagramUrl: 'https://instagram.com/nour_moussawi',
         facebookUrl: 'https://facebook.com/',
